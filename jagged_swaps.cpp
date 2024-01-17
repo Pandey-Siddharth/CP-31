@@ -7,11 +7,11 @@ bool hasDuplicates(const vector<int>& arr) {
     vector<int> seen(arr.size() + 1, 0);
     for (int num : arr) {
         if (seen[num] == 1) {
-            return true; // Duplicate found
+            return true; 
         }
         seen[num] = 1;
     }
-    return false; // No duplicates
+    return false;
 }
 
 bool f(vector<int>& arr, int n) {
