@@ -24,6 +24,7 @@ public:
 
     int numDecodings(string s) {
         unordered_map <string,char>mpp;
+        int a = 0;
         int n = s.size();
         vector<vector<int>>dp(n,vector<int>(2,-1));
         for(int i=1;i<=26;i++){
