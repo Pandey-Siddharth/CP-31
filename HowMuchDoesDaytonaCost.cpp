@@ -25,4 +25,5 @@ int main(){
         sort(arr.begin(),arr.end());
         cout<< (check(arr,0,n-1,k)?"Yes":"No")<<endl;
     }
+    return 0;
 }
